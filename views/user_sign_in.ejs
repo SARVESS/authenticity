@@ -1,25 +1,16 @@
-<!-- <h1>Sign In</h1>
-
-<form action="/users/create-session" method="POST">
-    <input type="email" name="email" placeholder="Email"  required>
-    <input type="password" name="password" placeholder="Password"  required>
-    <input type="submit" value="Sign In">
-
-</form> -->
 
 <link rel="stylesheet" href="/css/user_sign_in.css">
 <div id="sign-in-div">
   <h1 id="head-1">Sign In</h1>
   <hr>
   <form action="/users/create-session" method="POST">
-    <label for="email-2">Email</label>
+    <label class="labels" for="email-2">Email</label>
     <input type="email" id="email-2" name="email" placeholder="Your Email..." required>
      <hr>
-    <label for="password-2">Password</label>
+    <label class="labels" for="password-2">Password</label>
     <input type="password" id="password-2" name="password" placeholder="Your Password.." required>
     <hr>
-  
-    <!-- <input type="submit" value="Sign In"> -->
+
     <div id="link-div">
         <a href=""> Forgot Password? </a>
         <button id="sign-in-button" > Sign In </button>

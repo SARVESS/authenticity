@@ -1,0 +1,38 @@
+#header-div {
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    justify-content: space-between;
+}
+
+#title-div h1 {
+  margin-left: 30%;  
+}
+
+#title-div h1 a {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#list-div ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#list-div ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.link-1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}

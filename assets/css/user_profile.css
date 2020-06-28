@@ -1,0 +1,37 @@
+body{
+    background-color: lightblue;
+}
+
+#profile-div{
+    background-color: rgb(45, 45, 100);
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+#profile-div h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+#buttons-div{
+    text-align: center;
+}
+
+#buttons-div button {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(81, 121, 121);
+    margin: 5px;
+}
+
+#buttons-div button a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+

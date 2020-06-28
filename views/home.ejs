@@ -1,0 +1,27 @@
+
+<link rel="stylesheet" href="/css/home.css">
+<div id="home-div">
+   <h1 id="home-heading">
+      Welcome to <%= title %>
+   </h1>
+
+   <% if (locals.user){ %>
+
+    <div id="dashboard-div">
+   
+        <span>Go to </span>
+        <button class="buttons-1"><a href="/users/profile"> Dashboard </a></button>
+        
+    </div>
+
+   <% } else { %>
+  <div id="button-div">
+
+    <button class="buttons"><a href="/users/sign-in"> LOGIN </a></button> 
+    <span id="slash"> OR </span>
+   <button class="buttons"><a href="/users/sign-up"> SIGN UP </a></button> <span id="to-continue"> to Continue</span>
+
+  </div> 
+  <% } %>
+   
+</div>

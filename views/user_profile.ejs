@@ -5,8 +5,17 @@
      </h1>
 
     <div id="buttons-div">
-      <button> <a href=""> Reset Password </a> </button>
+      <button> <a href="/users/update-password-page"> Update Password </a> </button>
       <button> <a href="/users/sign-out"> Sign Out </a> </button>
    </div> 
 
-</div>     
+      <form action="/users/update/<%= user.id %>" method="POST">
+          <input type="text" name="name" placeholder="Your Name" value="<%= user.name %>" required>
+          <input type="email" name="email" placeholder="Your Email" value="<%= user.email %>" required>
+          <input type="submit"  value="Update">
+      </form> 
+     
+      <p><%= user.name %></p>
+      <p><%= user.email %></p>
+
+</div> 

@@ -26,6 +26,8 @@ input[type=email] {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
 }
 input[type=email]::-webkit-input-placeholder {
   font-family: Arial, Helvetica, sans-serif;
@@ -39,6 +41,8 @@ input[type=password] {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
 }
 input[type=password]::-webkit-input-placeholder {
   font-family: Arial, Helvetica, sans-serif;
@@ -46,11 +50,8 @@ input[type=password]::-webkit-input-placeholder {
 }
 
 #link-div {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  margin-top: 5px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 #link-div a{
